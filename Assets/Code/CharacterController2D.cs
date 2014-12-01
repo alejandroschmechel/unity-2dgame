@@ -34,6 +34,7 @@ public class CharacterController2D : MonoBehaviour
 		_horizontalDistanceBetweenRays;
 
 	public void Awake(){
+        HandleCollisions = true;
 		State = new ControllerState2D();
 		_transform = transform;
 		_localScale = transform.localScale;

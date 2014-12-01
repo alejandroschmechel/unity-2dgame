@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
 				Flip ();
 			}
 		} else if (Input.GetKey (KeyCode.A)) {
-			_normalizedHorizontalSpeed = 1;
+			_normalizedHorizontalSpeed = -1;
 			if(_isFacingRight){
 				Flip();
 			}
