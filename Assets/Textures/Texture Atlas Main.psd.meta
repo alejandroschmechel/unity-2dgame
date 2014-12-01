@@ -12,7 +12,7 @@ TextureImporter:
     21300014: Grass2
     21300016: Star
     21300018: Upper Cave Spikes
-    21300020: Dirt
+    21300020: Patform
     21300022: Bottom Cave Spikes
     21300024: Tree
     21300026: Pipe
@@ -157,15 +157,15 @@ TextureImporter:
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Dirt
+    - name: Patform
       rect:
         serializedVersion: 2
         x: 1664
         y: 1444
         width: 384
         height: 92
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bottom Cave Spikes
       rect:
